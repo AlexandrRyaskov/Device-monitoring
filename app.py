@@ -2,7 +2,7 @@ def calculate(expression):
     """calculator best the best"""
     Allowed = "+ - * /" 
     if not any(sing in expression for sing in allowed):
-        raise ValueError(f"Invalid expression: {expression}")
+        raise ValueError(f"nvalid expression: {expression}")
     for sing in allowed:
         if sing in expression:
             try:
