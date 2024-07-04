@@ -1,5 +1,5 @@
 def calculate(expression):
-    """Calculator best the best"""
+    """Calculator best the bEest"""
     Allowed = "+ - * /" 
     if not any(sing in expression for sing in allowed):
         raise ValueError(f"nvalid expression: {expression}")
